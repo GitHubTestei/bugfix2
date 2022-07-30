@@ -1,0 +1,11 @@
+-- Made by Yuki and Tofu
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/GitHubTestei/PoggersHubV3/main/BugFix"))()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "Poggers Hub has loaded.",
+Text = "By Yuki and Tofu", 
+
+Button1 = "Yes",
+Button2 = "Cancel",
+Duration = 30 
+})
